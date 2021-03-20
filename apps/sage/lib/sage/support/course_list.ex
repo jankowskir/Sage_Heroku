@@ -173,7 +173,11 @@ defmodule Sage.Support.CourseList do
       name: "Spreadsheets",
       desc: "The Spreadsheets course will help students become proficient in using spreadsheets to analyze business problems. Students will demonstrate competency in spreadsheet development and analysis for business/accounting applications (e.g., using essential spreadsheet functions, formulas, charts, etc.)"
     ],
-    "C278" => [
+    "C277" => [
+      name: "Finite Mathematics",
+      desc: "Finite Mathematics covers the knowledge and skills necessary to apply discrete mathematics and properties of number systems to model and solve real-life problems. Topics include sets and operations; prime and composite numbers; GCD and LCM; order of operations; ordering numbers; mathematical systems including modular arithmetic, arithmetic and geometric sequences, ratio and proportion, subsets of real numbers, logic and truth tables, graphs, trees and networks, and permutation and combination."
+    ],	
+	"C278" => [
       name: "College Algebra",
       desc: "This course provides a detailed exploration into basic algebraic concepts and functions and their use in describing, interpreting, and modeling real-world situations. Topics include: real numbers, algebraic expressions, equations and inequalities, graphs and functions, polynomial and rational functions, exponential and logarithmic functions, and linear systems of equations."
     ],
@@ -304,6 +308,14 @@ defmodule Sage.Support.CourseList do
     "C706" => [
       name: "Secure Software Design",
       desc: "This course provides students with a practical guide to establishing proactive software security. The course focuses on analyzing risks, understanding likely points of attack and proactively deciding how software will handle attacks of the future. By looking at the systemic threats in any deployment environment and discussing vulnerabilities of various applications, this course shows the student how to construct software that can deal with both known and unknown attacks preemptively."
+    ],
+    "C727" => [
+      name: "Cybersecurity Management I - Strategic",
+      desc: "This course introduces the Basel Committee’s “four lines of defense” model to appropriately implement separation of duties and information security roles and structures. Additionally, this course covers big-picture items (e.g., how risk management will be performed institutionally and how compliance to information security requirements will be managed)."
+    ],
+    "C795" => [
+      name: "Cybersecurity Management II - Tactical",
+      desc: "The tactical management process enables organizations to address unique cyber requirements throughout the organization. It deals with the people, processes, and technologies that are in use, and it primarily centers on the current operations of the enterprise."
     ],
     "C740" => [
       name: "Fundamentals of Data Analytics",
@@ -472,11 +484,14 @@ defmodule Sage.Support.CourseList do
     "C917" => [
       name: "Network Design Foundations",
       desc: "Network Design Foundations explores enterprise environments that require networks designed for performance, availability, and scalability with the flexibility to meet rapidly evolving demands. Skilled IT professionals who possess up-to-date, fundamental network design skills are needed in order to meet these challenges head-on. C246: Fundamentals of Interconnecting Network Devices or Cisco Certified Entry Networking Technician (CCENT) certification is a prerequisite for this course."
-
     ],
     "C923" => [
       name: "Cloud Applications",
       desc: "Cloud Applications teaches students to implement and maintain cloud technologies and enables them to jump into a rapidly growing market. As more businesses shift their IT operations to cloud platforms, skills in cloud computing and virtualization have become a frequently required qualification for IT professionals. This course prepares students for the following certification exam: CV0-002 CompTIA Cloud+. While it is strongly recommended that students complete Cloud Foundations (C849) prior to beginning this course, there are no prerequisites."
+    ],
+    "C924" => [
+      name: "Cloud Deployment and Operations",
+      desc: "Cloud Deployment and Operations provides students with the technical skills in deployment, management, and operations of cloud services. This course allows students to examine stability and scalability, backup and recovery processes, and deployment best practices. Provisioning of cloud resources, monitoring of cloud resources, and managing connectivity are also examined. Competency in this course is demonstrated by successfully completing the Amazon Web Services (AWS) Certified SysOps Administrator - Associate certification exam. - The following courses are prerequisites: Cloud Applications (C923)"
     ],
     "C949" => [
       name: "Data Structures and Algorithms I",
@@ -506,9 +521,25 @@ defmodule Sage.Support.CourseList do
       name: "Discrete Math II",
       desc: "Discrete Mathematics II addresses abstract discrete computational methods used in computer science. In particular, this class introduces searching and sorting algorithms, big-O estimates, number theory and cryptography, recursion and induction, counting and advanced counting techniques, discrete probability, and modeling computation. There is also an emphasis on applications in computer science. Discrete Mathematics I is a prerequisite for this course."
     ],
+    "C961" => [
+      name: "Ethics in Technology",
+      desc: "Ethics in Technology examines the ethical considerations of technology in each of four categories: privacy, accuracy, property, and access. The course presents a range of technologies and issues that challenge technologists in the field of information ethics. Students are introduced to a decision-making process as informed by ethical frameworks that outline key ethical considerations within the technologies presented. Students will study specific cases to help inform their professional responsibilities in how to navigate the important controversies in topics such as surveillance, social media, hacking, data manipulation, plagiarism and piracy, artificial intelligence, responsible innovation, and the digital divide. This course has no prerequisites."
+    ], 
+    "C963" => [
+      name: "American Politics and the US Constituion",
+      desc: "American Politics and the US Constitution examines the evolution of representative government in the United States and the changing interpretations of the civil rights and civil liberties protected by the Constitution. This course will give students an understanding of the powers of the branches of the federal government, the continual tensions inherent in a federal system, the shifting relationship between state and federal governments, and interactions between elected officials and the ever-changing electorate. This course will focus on such topics as the role of a free press in a democracy, the impact of changing demographics on American politics, and the debates over and expansion of civil rights. Upon completion of the course, students should be able to explain the basic functions of the federal government, describe the forces that shape American policy and politics, and be better prepared to participate in America’s civic institutions. This course has no prerequisite."
+    ],   
     "C964" => [
       name: "Computer Science Capstone",
       desc: "The Computer Science Capstone course allows the student to demonstrate their application of the academic and professional abilities developed during the BSCS program. The capstone challenges students to integrate skills and knowledge from all program domains into one project."
+    ],
+    "C968" => [
+      name: "Software I - C#",
+      desc: "Software I builds object-oriented programming expertise and introduces powerful new tools for C# application development. You will learn about and put into action: class design, exception handling, and other object-oriented principles and constructs to develop software that meets business requirements. This course requires foundational knowledge of object-oriented programming. Scripting and Programming: Foundations and Scripting and Programming: Applications are prerequisites for this course."
+    ],
+    "C993" => [
+    	name: "Structured Query Language - 1z0-071",
+	desc: "This course prepares the student for the Oracle Database SQL (1Z0-071) certification exam. Students will master the SQL language that will allow them to restrict and sort data, create schema objects, control user access, and manage data, objects and tables."
     ],
     "CNV1" => [
       name: "Designing Customized Security",
@@ -545,6 +576,10 @@ defmodule Sage.Support.CourseList do
     "EDV1" => [
       name: "Software I",
       desc: "This course focuses on skills and concepts students need to know, to understand, and to apply"
+    ],
+	"EST1" => [
+      name: "Ethical Situations in Business",
+      desc: "Ethical Situations in Business explores various scenarios in business and helps students learn to develop ethical and socially responsible courses of action. Students will also learn to develop an appropriate and comprehensive ethics program for a business venture."
     ],
     "EUC1" => [
       name: "Web Development Fundamentals",
